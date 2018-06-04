@@ -1,0 +1,17 @@
+https://help.github.com/articles/setting-up-your-github-pages-site-locally-with-jekyll/
+https://desiredpersona.com/install-jekyll-on-macos/
+git clone git@github.com:sneetsher/sneetsher.github.io.git
+ruby -v
+sudo gem install bundler
+Gemfile
+sudo bundle install
+ fails at nokogiri-1.8.2 building from source lzma
+ https://github.com/sparklemotion/nokogiri/issues/1693  (Unable to install Nokogiri on Mac OS 10.13 with lzma from homebrew)
+ brew unlink xz
+ sudo gem install nokogiri
+ brew link xz
+bundle exec jekyll new jekyll_site1
+
+bundle exec jekyll serve
+
+bundle update github-pages
