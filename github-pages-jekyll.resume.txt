@@ -15,3 +15,8 @@ bundle exec jekyll new jekyll_site1
 bundle exec jekyll serve
 
 bundle update github-pages
+
+bundle show minima
+
+cp -r /Library/Ruby/Gems/2.3.0/gems/minima-2.4.1/_* /Library/Ruby/Gems/2.3.0/gems/minima-2.4.1/assets/ .
+
