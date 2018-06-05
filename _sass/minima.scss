@@ -2,7 +2,18 @@
 
 // Define defaults for each variable.
 
+/* RTL */
+$base-direction: rtl !default;
+$side-start: right;
+$side-end: left;
+@font-face {
+  font-family: Amiri;
+  src: url(https://lib.arvancloud.com/ar/font/Amiri/Amiri.woff2);
+}
+/* RTL end */
+
 $base-font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol" !default;
+$base-font-family: Amiri; /* RTL */
 $base-font-size:   16px !default;
 $base-font-weight: 400 !default;
 $small-font-size:  $base-font-size * 0.875 !default;
@@ -18,7 +29,7 @@ $grey-color:       #828282 !default;
 $grey-color-light: lighten($grey-color, 40%) !default;
 $grey-color-dark:  darken($grey-color, 25%) !default;
 
-$table-text-align: left !default;
+$table-text-align: $side-start !default;
 
 // Width of the content area
 $content-width:    800px !default;

@@ -1,3 +1,13 @@
+/* rtl */
+body {
+  direction: $base-direction;
+}
+
+pre, code {
+  direction: ltr;
+}
+/* RTL end */
+
 /**
  * Reset some basic elements
  */
@@ -75,7 +85,7 @@ figcaption {
  * Lists
  */
 ul, ol {
-  margin-left: $spacing-unit;
+ margin-#{$side-start}: $spacing-unit;
 }
 
 li {
@@ -127,10 +137,10 @@ a {
  */
 blockquote {
   color: $grey-color;
-  border-left: 4px solid $grey-color-light;
-  padding-left: $spacing-unit / 2;
+  border-#{$side-start}: 4px solid $grey-color-light;
+  padding-#{$side-start}: $spacing-unit / 2;
   @include relative-font-size(1.125);
-  letter-spacing: -1px;
+  /* letter-spacing: -1px; */ /* RTL */
   font-style: italic;
 
   > :last-child {
@@ -210,7 +220,7 @@ pre {
     height: 16px;
     display: inline-block;
     fill: #{$grey-color};
-    padding-right: 5px;
+    padding-#{$side-end}: 5px;
     vertical-align: text-top;
 }
 
