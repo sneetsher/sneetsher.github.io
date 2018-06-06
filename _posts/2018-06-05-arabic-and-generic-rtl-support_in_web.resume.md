@@ -13,32 +13,38 @@ comments: true
 - [Inline markup and bidirectional text in HTML](https://www.w3.org/International/articles/inline-bidi-markup/)
 - [CSS done right - Post RTLCSS](https://tech.trivago.com/2017/07/07/css-done-right---post-rtlcss/)
 - [RTL CSS: Flipping the Web..](https://rtl-css.net/)
+- [RTL CSS with Sass](http://matanich.com/2013/09/06/rtl-css-with-sass) by Tyson Matanich.
 
 ميزات دعم ثنائية الإتجاه أو Bi-Directional
 ---
-- HTML attribute
+- HTML
 
-        dir="ltr|auto|rtl"
+    {% highlight html %}
+    <!-- HTML tags -->
+    <dbi>
+    <bdo>
+    <!-- HTML attributes -->
+    <... dir="ltr | auto | rtl" />
+    {% endhighlight %}
 
-- CSS property
+- CSS
 
-        direction: ltr|rtl;
+    {% highlight css %}
+    /* CSS selectors */
+    dir=rtl],
+    :dir(rtl) /* ff-only :/ */
+    {
+      /* CSS properties */
+      direction: ltr | rtl;
+      unicode-bidi: ;
+      writing-mode: ;
+      text-orientation: ;     /* lab */
+      text-combine-upright: ; /* lab */
+    }
+    {% endhighlight %}
 
-- CSS selector 
 
-        [dir=rtl]
-
-- CSS selector 
-
-        :dir(rtl) /* ff-only :/ */
-
-- HTML tag 
-
-        <dbi>
-
-- HTML tag
-
-        <bdo>
+- Other positional/visual-control HTML attributes & CSS properties & values
 
 الوضع الحالي
 ---

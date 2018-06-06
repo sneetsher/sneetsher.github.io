@@ -24,7 +24,8 @@ github_username: sneetsher
 
 lang: ar
 google_analytics: UA-120371589-1
-disqus.shortname: sneetsher
+disqus:
+  shortname: sneetsher
 
 # Build settings
 markdown: kramdown
