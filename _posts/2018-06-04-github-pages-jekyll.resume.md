@@ -3,6 +3,7 @@ layout: post
 title:  "Github-pages مستعملا Jekyll"
 date:   2018-06-04 07:12:30 +0100
 categories: github
+comments: true
 ---
 
 1. مرجع

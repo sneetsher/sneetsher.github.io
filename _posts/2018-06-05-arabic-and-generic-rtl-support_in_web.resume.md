@@ -3,6 +3,7 @@ layout: post
 title:  "دعم العربية والكتابة من اليمين في الواب"
 date:   2018-06-05 22:06:30 +0100
 categories: web
+comments: true
 ---
 
 مراجع
