@@ -88,3 +88,12 @@ comments: true
 - [PostCSS](http://postcss.org/) [Source](https://github.com/postcss/postcss)
 - [CSSJanus](https://cssjanus.github.io/) [Source](https://github.com/cssjanus/cssjanus)
 - [twitter-archive/RTLtextarea](https://github.com/twitter-archive/RTLtextarea)
+
+تحديث
+---
+2018-06-08
+
+الحمدلله أضيف التموضع المنطقي إلى مسودة CSS للإصدار القادم
+
+- [CSS Box Alignment Module Level 3](https://drafts.csswg.org/css-align-3/)
+- [Understanding Logical Properties And Values](https://www.smashingmagazine.com/2018/03/understanding-logical-properties-values/)
